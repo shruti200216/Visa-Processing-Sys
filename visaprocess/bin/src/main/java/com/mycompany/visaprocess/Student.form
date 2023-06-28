@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="1c" green="36" red="24" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="CVL" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cntrycb" alignment="0" min="-2" pref="123" max="-2" attributes="0"/>
+                                  <Component id="jTextField1" alignment="0" pref="179" max="32767" attributes="0"/>
+                                  <Component id="jTextField2" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jComboBox3" alignment="0" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                  <Component id="f2label" min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="backbtn" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <Component id="up2btn" min="-2" pref="104" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jLabel1" max="32767" attributes="0"/>
+                                              <Component id="jLabel3" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel6" min="-2" pref="137" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="f1label" min="-2" pref="130" max="-2" attributes="0"/>
+                                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                                          <Component id="up1btn" min="-2" pref="94" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jComboBox1" min="-2" pref="161" max="-2" attributes="0"/>
+                                              <Component id="jComboBox2" min="-2" pref="180" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
+                                  <Component id="SVLabel" min="-2" pref="302" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
+                                  <Component id="jButton3" min="-2" pref="139" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="SVLabel" min="-2" pref="65" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CVL" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="cntrycb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="f1label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="up1btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="f2label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="up2btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jButton3" min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="backbtn" min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="SVLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Student Visa"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="CVL">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Country Of Visit:"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cntrycb">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="196">
+                <StringItem index="0" value="Afghanistan"/>
+                <StringItem index="1" value="Albania"/>
+                <StringItem index="2" value="Algeria"/>
+                <StringItem index="3" value="Andorra"/>
+                <StringItem index="4" value="Angola"/>
+                <StringItem index="5" value="Antigua and Barbuda"/>
+                <StringItem index="6" value="Argentina"/>
+                <StringItem index="7" value="Armenia"/>
+                <StringItem index="8" value="Australia"/>
+                <StringItem index="9" value="Austria"/>
+                <StringItem index="10" value="Azerbaijan"/>
+                <StringItem index="11" value="Bahamas"/>
+                <StringItem index="12" value="Bahrain"/>
+                <StringItem index="13" value="Bangladesh"/>
+                <StringItem index="14" value="Barbados"/>
+                <StringItem index="15" value="Belarus"/>
+                <StringItem index="16" value="Belgium"/>
+                <StringItem index="17" value="Belize"/>
+                <StringItem index="18" value="Benin"/>
+                <StringItem index="19" value="Bhutan"/>
+                <StringItem index="20" value="Bolivia"/>
+                <StringItem index="21" value="Bosnia and Herzegovina"/>
+                <StringItem index="22" value="Botswana"/>
+                <StringItem index="23" value="Brazil"/>
+                <StringItem index="24" value="Brunei"/>
+                <StringItem index="25" value="Bulgaria"/>
+                <StringItem index="26" value="Burkina Faso"/>
+                <StringItem index="27" value="Burundi"/>
+                <StringItem index="28" value="Cambodia"/>
+                <StringItem index="29" value="Cameroon"/>
+                <StringItem index="30" value="Canada"/>
+                <StringItem index="31" value="Cape Verde"/>
+                <StringItem index="32" value="Central African Republic"/>
+                <StringItem index="33" value="Chad"/>
+                <StringItem index="34" value="Chile"/>
+                <StringItem index="35" value="China"/>
+                <StringItem index="36" value="Colombia"/>
+                <StringItem index="37" value="Comoros"/>
+                <StringItem index="38" value="Congo, Democratic Republic of the"/>
+                <StringItem index="39" value="Congo, Republic of"/>
+                <StringItem index="40" value="Costa Rica"/>
+                <StringItem index="41" value="Cte d&apos;Ivoire"/>
+                <StringItem index="42" value="Croatia"/>
+                <StringItem index="43" value="Cuba"/>
+                <StringItem index="44" value="Cyprus"/>
+                <StringItem index="45" value="Czech Republic"/>
+                <StringItem index="46" value="Denmark"/>
+                <StringItem index="47" value="Djibouti"/>
+                <StringItem index="48" value="Dominica"/>
+                <StringItem index="49" value="Dominican Republic"/>
+                <StringItem index="50" value="East Timor"/>
+                <StringItem index="51" value="Ecuador"/>
+                <StringItem index="52" value="Egypt"/>
+                <StringItem index="53" value="El Salvador"/>
+                <StringItem index="54" value="Equatorial Guinea"/>
+                <StringItem index="55" value="Eritrea"/>
+                <StringItem index="56" value="Estonia"/>
+                <StringItem index="57" value="Ethiopia"/>
+                <StringItem index="58" value="Fiji"/>
+                <StringItem index="59" value="Finland"/>
+                <StringItem index="60" value="France"/>
+                <StringItem index="61" value="Gabon"/>
+                <StringItem index="62" value="Gambia"/>
+                <StringItem index="63" value="Georgia (Country)"/>
+                <StringItem index="64" value="Germany"/>
+                <StringItem index="65" value="Ghana"/>
+                <StringItem index="66" value="Greece"/>
+                <StringItem index="67" value="Grenada"/>
+                <StringItem index="68" value="Guatemala"/>
+                <StringItem index="69" value="Guinea"/>
+                <StringItem index="70" value="Guinea-Bissau"/>
+                <StringItem index="71" value="Guyana"/>
+                <StringItem index="72" value="Haiti"/>
+                <StringItem index="73" value="Honduras"/>
+                <StringItem index="74" value="Hungary"/>
+                <StringItem index="75" value="Iceland"/>
+                <StringItem index="76" value="India"/>
+                <StringItem index="77" value="Indonesia"/>
+                <StringItem index="78" value="Iran"/>
+                <StringItem index="79" value="Iraq"/>
+                <StringItem index="80" value="Ireland"/>
+                <StringItem index="81" value="Israel"/>
+                <StringItem index="82" value="Italy"/>
+                <StringItem index="83" value="Jamaica"/>
+                <StringItem index="84" value="Japan"/>
+                <StringItem index="85" value="Jordan"/>
+                <StringItem index="86" value="Kazakhstan"/>
+                <StringItem index="87" value="Kenya"/>
+                <StringItem index="88" value="Kiribati"/>
+                <StringItem index="89" value="Korea, North"/>
+                <StringItem index="90" value="Korea, South"/>
+                <StringItem index="91" value="Kuwait"/>
+                <StringItem index="92" value="Kyrgyzstan"/>
+                <StringItem index="93" value="Laos"/>
+                <StringItem index="94" value="Latvia"/>
+                <StringItem index="95" value="Lebanon"/>
+                <StringItem index="96" value="Lesotho"/>
+                <StringItem index="97" value="Liberia"/>
+                <StringItem index="98" value="Libya"/>
+                <StringItem index="99" value="Liechtenstein"/>
+                <StringItem index="100" value="Lithuania"/>
+                <StringItem index="101" value="Luxembourg"/>
+                <StringItem index="102" value="Madagascar"/>
+                <StringItem index="103" value="Malawi"/>
+                <StringItem index="104" value="Malaysia"/>
+                <StringItem index="105" value="Maldives"/>
+                <StringItem index="106" value="Mali"/>
+                <StringItem index="107" value="Malta"/>
+                <StringItem index="108" value="Marshall Islands"/>
+                <StringItem index="109" value="Mauritania"/>
+                <StringItem index="110" value="Mauritius"/>
+                <StringItem index="111" value="Mexico"/>
+                <StringItem index="112" value="Micronesia"/>
+                <StringItem index="113" value="Moldova"/>
+                <StringItem index="114" value="Monaco"/>
+                <StringItem index="115" value="Mongolia"/>
+                <StringItem index="116" value="Montenegro"/>
+                <StringItem index="117" value="Morocco"/>
+                <StringItem index="118" value="Mozambique"/>
+                <StringItem index="119" value="Myanmar"/>
+                <StringItem index="120" value="North Macedonia"/>
+                <StringItem index="121" value="Namibia"/>
+                <StringItem index="122" value="Nauru"/>
+                <StringItem index="123" value="Nepal"/>
+                <StringItem index="124" value="Netherlands"/>
+                <StringItem index="125" value="New Zealand"/>
+                <StringItem index="126" value="Nicaragua"/>
+                <StringItem index="127" value="Nigeria"/>
+                <StringItem index="128" value="Northern Ireland"/>
+                <StringItem index="129" value="Norway"/>
+                <StringItem index="130" value="Oman"/>
+                <StringItem index="131" value="Pakistan"/>
+                <StringItem index="132" value="Palau"/>
+                <StringItem index="133" value="Palestine (Disputed)"/>
+                <StringItem index="134" value="Panama"/>
+                <StringItem index="135" value="Papua New Guinea"/>
+                <StringItem index="136" value="Paraguay"/>
+                <StringItem index="137" value="Peru"/>
+                <StringItem index="138" value="Philippines"/>
+                <StringItem index="139" value="Poland"/>
+                <StringItem index="140" value="Portugal"/>
+                <StringItem index="141" value="Qatar"/>
+                <StringItem index="142" value="Romania"/>
+                <StringItem index="143" value="Russia"/>
+                <StringItem index="144" value="Rwanda"/>
+                <StringItem index="145" value="Eswatini"/>
+                <StringItem index="146" value="Samoa"/>
+                <StringItem index="147" value="San Marino"/>
+                <StringItem index="148" value="So Tom and Prncipe"/>
+                <StringItem index="149" value="Saudi Arabia"/>
+                <StringItem index="150" value="Senegal"/>
+                <StringItem index="151" value="Serbia"/>
+                <StringItem index="152" value="Seychelles"/>
+                <StringItem index="153" value="Sierra Leone"/>
+                <StringItem index="154" value="Singapore"/>
+                <StringItem index="155" value="Slovakia"/>
+                <StringItem index="156" value="Slovenia"/>
+                <StringItem index="157" value="Solomon Islands"/>
+                <StringItem index="158" value="Somalia"/>
+                <StringItem index="159" value="South Africa"/>
+                <StringItem index="160" value="Spain"/>
+                <StringItem index="161" value="Sri Lanka"/>
+                <StringItem index="162" value="St. Kitts and Nevis"/>
+                <StringItem index="163" value="St. Lucia"/>
+                <StringItem index="164" value="St. Vincent and the Grenadines"/>
+                <StringItem index="165" value="Sudan"/>
+                <StringItem index="166" value="Suriname"/>
+                <StringItem index="167" value="Sweden"/>
+                <StringItem index="168" value="Switzerland"/>
+                <StringItem index="169" value="Syria"/>
+                <StringItem index="170" value="Taiwan"/>
+                <StringItem index="171" value="Tajikistan"/>
+                <StringItem index="172" value="Tanzania"/>
+                <StringItem index="173" value="Thailand"/>
+                <StringItem index="174" value="Togo"/>
+                <StringItem index="175" value="Tonga"/>
+                <StringItem index="176" value="Trinidad and Tobago"/>
+                <StringItem index="177" value="Tunisia"/>
+                <StringItem index="178" value="Turkey"/>
+                <StringItem index="179" value="Turkmenistan"/>
+                <StringItem index="180" value="Tuvalu"/>
+                <StringItem index="181" value="Uganda"/>
+                <StringItem index="182" value="Ukraine"/>
+                <StringItem index="183" value="United Arab Emirates"/>
+                <StringItem index="184" value="United Kingdom"/>
+                <StringItem index="185" value="United States Profile"/>
+                <StringItem index="186" value="Uruguay"/>
+                <StringItem index="187" value="Uzbekistan"/>
+                <StringItem index="188" value="Vanuatu"/>
+                <StringItem index="189" value="Vatican City (Holy See)"/>
+                <StringItem index="190" value="Venezuela"/>
+                <StringItem index="191" value="Vietnam"/>
+                <StringItem index="192" value="Western Sahara (Disputed)"/>
+                <StringItem index="193" value="Yemen"/>
+                <StringItem index="194" value="Zambia"/>
+                <StringItem index="195" value="Zimbabwe"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Current University"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="11" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="102">
+                <StringItem index="0" value="University of Delhi,New Delhi"/>
+                <StringItem index="1" value="Indian Institute of Technology Bombay,Mumbai"/>
+                <StringItem index="2" value="Indian Institute of Technology Kanpur,Kanpur"/>
+                <StringItem index="3" value="Indian Institute of Technology Madras,Chennai"/>
+                <StringItem index="4" value="Indian Institute of Technology Delhi,New Delhi"/>
+                <StringItem index="5" value="Indian Institute of Technology Kharagpur,Kharagpur"/>
+                <StringItem index="6" value="Indian Institute of Science,Bangalore"/>
+                <StringItem index="7" value="Jawaharlal Nehru University,New Delhi"/>
+                <StringItem index="8" value="Savitribai Phule Pune University,Pune"/>
+                <StringItem index="9" value="Vellore Institute of Technology,Vellore ..."/>
+                <StringItem index="10" value="Manipal Academy of Higher Education,Manipal ..."/>
+                <StringItem index="11" value="Amrita Vishwa Vidyapeetham,Coimbatore ..."/>
+                <StringItem index="12" value="Narendra Dev University of Agriculture and Technology,Faizabad"/>
+                <StringItem index="13" value="Amity University,Noida ..."/>
+                <StringItem index="14" value="International Institute of Information Technology,Hyderabad"/>
+                <StringItem index="15" value="Narsee Monjee Institute of Management and Higher Studies,Mumbai"/>
+                <StringItem index="16" value="Birla Institute of Technology and Science,Pilani"/>
+                <StringItem index="17" value="Anna University,Chennai"/>
+                <StringItem index="18" value="Lovely Professional University,Phagwara"/>
+                <StringItem index="19" value="All India Institute of Medical Sciences Delhi,New Delhi"/>
+                <StringItem index="20" value="SRM Institute of Science and Technology,Chennai ..."/>
+                <StringItem index="21" value="Tata Institute of Fundamental Research,Mumbai"/>
+                <StringItem index="22" value="University of Mumbai,Mumbai"/>
+                <StringItem index="23" value="Indian Institute of Technology Guwahati,Guwahati"/>
+                <StringItem index="24" value="Tata Institute of Social Sciences,Mumbai"/>
+                <StringItem index="25" value="Chandigarh University,Mohali ..."/>
+                <StringItem index="26" value="University of Lucknow,Lucknow"/>
+                <StringItem index="27" value="Jamia Millia Islamia,New Delhi"/>
+                <StringItem index="28" value="Tamil Nadu Agricultural University,Coimbatore ..."/>
+                <StringItem index="29" value="Indian Statistical Institute,Kolkata ..."/>
+                <StringItem index="30" value="National Institute of Mental Health and Neuro Sciences,Bangalore"/>
+                <StringItem index="31" value="Indian Institute of Technology Roorkee,Roorkee"/>
+                <StringItem index="32" value="Banaras Hindu University,Varanasi&#x9;"/>
+                <StringItem index="33" value="Panjab University,Chandigarh"/>
+                <StringItem index="34" value="Bangalore University,Bangalore"/>
+                <StringItem index="35" value="Christ University,Bangalore"/>
+                <StringItem index="36" value="University of Madras,Chennai"/>
+                <StringItem index="37" value="National Institute of Design,Ahmedabad ..."/>
+                <StringItem index="38" value="Osmania University,Hyderabad"/>
+                <StringItem index="39" value="Dr. A.P.J. Abdul Kalam Technical University,Lucknow"/>
+                <StringItem index="40" value="Aligarh Muslim University,Aligarh ..."/>
+                <StringItem index="41" value="Baba Ghulam Shah Badhshah University,Rajouri"/>
+                <StringItem index="42" value="Gujarat Technological University,Ahmedabad"/>
+                <StringItem index="43" value="National Institute of Fashion Technology,New Delhi ..."/>
+                <StringItem index="44" value="Guru Gobind Singh Indraprastha University,New Delhi"/>
+                <StringItem index="45" value="Kurukshetra University,Kurukshetra ..."/>
+                <StringItem index="46" value="Visvesvaraya Technological University,Belgaum"/>
+                <StringItem index="47" value="CSK Himachal Pradesh Krishi Vishvavidyalaya,Palampur"/>
+                <StringItem index="48" value="Cochin University of Science and Technology,Kochi"/>
+                <StringItem index="49" value="University of Calcutta,Kolkata"/>
+                <StringItem index="50" value="Chaudhary Charan Singh Haryana Agricultural University&#x9;Hisar"/>
+                <StringItem index="51" value="National Institute of Technology, Tiruchirappalli&#x9;Tiruchirappalli"/>
+                <StringItem index="52" value="National Institute of Technology, Rourkela&#x9;Rourkela"/>
+                <StringItem index="53" value="Indian Institute of Technology Gandhinagar&#x9;Chandkheda"/>
+                <StringItem index="54" value="Indian Institute of Technology Hyderabad&#x9;Eddumailaram"/>
+                <StringItem index="55" value="University of Petroleum and Energy Studies&#x9;Dehradun"/>
+                <StringItem index="56" value="Gandhi Institute of Technology and Management&#x9;Visakhapatnam"/>
+                <StringItem index="57" value="Chitkara University, Punjab&#x9;Punjab"/>
+                <StringItem index="58" value="University of Allahabad&#x9;Allahabad"/>
+                <StringItem index="59" value="The Maharaja Sayajirao University of Baroda&#x9;Vadodara"/>
+                <StringItem index="60" value="University of Hyderabad&#x9;Hyderabad"/>
+                <StringItem index="61" value="University of Rajasthan&#x9;Jaipur"/>
+                <StringItem index="62" value="University of Mysore&#x9;Mysore ..."/>
+                <StringItem index="63" value="University of Engineering and Management, Kolkata&#x9;Kolkata"/>
+                <StringItem index="64" value="Sharda University&#x9;Greater Noida"/>
+                <StringItem index="65" value="Gulbarga University&#x9;Gulbarga"/>
+                <StringItem index="66" value="Maulana Abul Kalam Azad University of Technology, West Bengal&#x9;Kolkata"/>
+                <StringItem index="67" value="Chhatrapati Shahu Ji Maharaj University&#x9;Kalyanpur"/>
+                <StringItem index="68" value="Birla Institute of Technology&#x9;Ranchi ..."/>
+                <StringItem index="69" value="Jadavpur University&#x9;Kolkata"/>
+                <StringItem index="70" value="University of Kerala&#x9;Thiruvananthapuram"/>
+                <StringItem index="71" value="National Institute of Technology, Silchar&#x9;Silchar"/>
+                <StringItem index="72" value="Nirma University&#x9;Ahmedabad"/>
+                <StringItem index="73" value="KIIT University&#x9;Bhubaneswar"/>
+                <StringItem index="74" value="Tamil Nadu Veterinary and Animal Sciences University&#x9;Chennai ..."/>
+                <StringItem index="75" value="SASTRA University&#x9;Thanjavur ..."/>
+                <StringItem index="76" value="Jawaharlal Nehru Technological University&#x9;Hyderabad ..."/>
+                <StringItem index="77" value="International Institute of Information Technology Bangalore&#x9;Bangalore"/>
+                <StringItem index="78" value="Mahatma Gandhi University&#x9;Kottayam"/>
+                <StringItem index="79" value="Post Graduate Institute of Medical Education and Research&#x9;Chandigarh"/>
+                <StringItem index="80" value="National Institute of Technology, Calicut&#x9;Calicut"/>
+                <StringItem index="81" value="National Institute of Technology, Karnataka&#x9;Mangalore&#x9;Chennai "/>
+                <StringItem index="82" value="Mathematical Institute&#x9;Chennai"/>
+                <StringItem index="83" value="Indian Maritime University&#x9;Chennai"/>
+                <StringItem index="84" value="Gauhati University,Guwahati"/>
+                <StringItem index="85" value="Thapar Institute of Engineering and Technology,Patiala"/>
+                <StringItem index="86" value="Indian Institute of Information Technology Allahabad,Allahabad"/>
+                <StringItem index="87" value="Madurai Kamaraj University ,Madurai"/>
+                <StringItem index="88" value="National Law School of India University,Bangalore"/>
+                <StringItem index="89" value="Jain University&#x9;,Bangalore"/>
+                <StringItem index="90" value="O.P. Jindal Global University, Sonipat"/>
+                <StringItem index="91" value="Patna University  ,Patna"/>
+                <StringItem index="92" value="Lalit Narayan Mithila University ,Darbhanga"/>
+                <StringItem index="93" value="Delhi Technological University&#x9; ,New Delhi"/>
+                <StringItem index="94" value="APJ Abdul Kalam Technological University,Thiruvananthapuram"/>
+                <StringItem index="95" value="Indian Institute of Foreign Trade&#x9;New Delhi"/>
+                <StringItem index="96" value="Indian Institute of Science Education and Research, Pune&#x9;Pune"/>
+                <StringItem index="97" value="Rajiv Gandhi Proudyogiki Vishwavidyalaya&#x9;Bhopal ..."/>
+                <StringItem index="98" value="Chaudhary Charan Singh University&#x9;Meerut"/>
+                <StringItem index="99" value="Devi Ahilya Vishwavidyalaya&#x9;Indore"/>
+                <StringItem index="100" value="Indian School of Mines&#x9;Dhanbad"/>
+                <StringItem index="101" value="Ashoka University&#x9;Sonipat"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="College Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Passing Certificate:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="f1label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="up1btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Upload"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="up1btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Student Name:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Abroad University"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="67">
+                <StringItem index="0" value="Select University"/>
+                <StringItem index="1" value="Harvard University Cambridge, USA"/>
+                <StringItem index="2" value="Massachusetts Institute of Technology Cambridge, USA"/>
+                <StringItem index="3" value="Stanford University Stanford, USA"/>
+                <StringItem index="4" value="California Institute of Technology Pasadena, USA"/>
+                <StringItem index="5" value="University of Cambridge Cambridge, UK"/>
+                <StringItem index="6" value="Princeton University zPrinceton, USA"/>
+                <StringItem index="7" value="University of Oxford Oxford, UK"/>
+                <StringItem index="8" value="Yale University New Haven, USA"/>
+                <StringItem index="9" value="The University of Chicago Chicago, USA"/>
+                <StringItem index="10" value="University of California - Berkeley Campus Berkeley, USA"/>
+                <StringItem index="11" value="Columbia University New York, USA"/>
+                <StringItem index="12" value="University of Pennsylvania Philadelphia, USA"/>
+                <StringItem index="13" value="Rockefeller University New York, USA"/>
+                <StringItem index="14" value="Johns Hopkins University Baltimore, USA"/>
+                <StringItem index="15" value="Cornell University Ithaca, USA"/>
+                <StringItem index="16" value="University College London London, UK"/>
+                <StringItem index="17" value="University of California - Los Angeles Campus Los Angeles, USA"/>
+                <StringItem index="18" value="University of Michigan Ann Arbor, USA"/>
+                <StringItem index="19" value="Duke University Durham, USA"/>
+                <StringItem index="20" value="Northwestern University Evanston, USA"/>
+                <StringItem index="21" value="University of Toronto Toronto, Canada"/>
+                <StringItem index="22" value="University of Washington Seattle, USA"/>
+                <StringItem index="23" value="University of Wisconsin-Madison Madison, USA"/>
+                <StringItem index="24" value="The University of Edinburgh Edinburgh, UK"/>
+                <StringItem index="25" value="University of California - San Diego Campus San Diego, USA"/>
+                <StringItem index="26" value="King&apos;s College London London, UK"/>
+                <StringItem index="27" value="New York University New York, USA"/>
+                <StringItem index="28" value="University of Illinois at Urbana-Champaign Champaign, USA"/>
+                <StringItem index="29" value="Carnegie Mellon University - USA Pittsburgh, USA"/>
+                <StringItem index="30" value="The University of North Carolina at Chapel Hill Chapel Hill, USA"/>
+                <StringItem index="31" value="The University of Texas at Austin Austin, USA"/>
+                <StringItem index="32" value="The University of Melbourne Melbourne, Australia"/>
+                <StringItem index="33" value="The University of British Columbia Vancouver, Canada"/>
+                <StringItem index="34" value="McGill University Montreal, Canada"/>
+                <StringItem index="35" value="Washington University in St. Louis St. Louis, USA"/>
+                <StringItem index="36" value="University of Plymouth Plymouth, UK"/>
+                <StringItem index="37" value="Australian National University Canberra, Australia"/>
+                <StringItem index="38" value="National University of Singapore Singapore, Singapore"/>
+                <StringItem index="39" value="University of Bristol Bristol, UK"/>
+                <StringItem index="40" value="University of California, Santa Barbara Santa Barbara, USA"/>
+                <StringItem index="41" value="Brown University Providence, USA"/>
+                <StringItem index="42" value="Boston University Boston, USA"/>
+                <StringItem index="43" value="University of Manchester Manchester, UK"/>
+                <StringItem index="44" value="University of California, Davis Davis, USA"/>
+                <StringItem index="45" value="University of Minnesota, Twin Cities Minneapolis, USA"/>
+                <StringItem index="46" value="Georgia Institute of Technology Atlanta, USA"/>
+                <StringItem index="47" value="The University of Queensland Brisbane, Australia"/>
+                <StringItem index="48" value="Baylor College of Medicine Houston, USA"/>
+                <StringItem index="49" value="Heidelberg University - Germany Heidelberg, Germany"/>
+                <StringItem index="50" value="Ludwig Maximilians University Munich Munich, Germany"/>
+                <StringItem index="51" value="University of Southern California Los Angeles, USA"/>
+                <StringItem index="52" value="London School of Economics and Political Science London, UK"/>
+                <StringItem index="53" value="Rice University Houston, USA"/>
+                <StringItem index="54" value="Monash University Melbourne, Australia"/>
+                <StringItem index="55" value="Nanyang Technological University Singapore, Singapore"/>
+                <StringItem index="56" value="Mayo Medical School Rochester, USA"/>
+                <StringItem index="57" value="Technical University of Munich Munich, Germany"/>
+                <StringItem index="58" value="Technische Universit&#xe4;t Darmstadt Darmstadt, Germany"/>
+                <StringItem index="59" value="University of Kiel Kiel, Germany"/>
+                <StringItem index="60" value="Simon Fraser University EBurnaby, Canada"/>
+                <StringItem index="61" value="Western University London, Canada"/>
+                <StringItem index="62" value=" "/>
+                <StringItem index="63" value=" "/>
+                <StringItem index="64" value=" "/>
+                <StringItem index="65" value=" "/>
+                <StringItem index="66" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select Course:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="15">
+                <StringItem index="0" value="Select Courses"/>
+                <StringItem index="1" value="Hotel Management"/>
+                <StringItem index="2" value="Finance"/>
+                <StringItem index="3" value="Computer Science"/>
+                <StringItem index="4" value="Events Management"/>
+                <StringItem index="5" value="IT"/>
+                <StringItem index="6" value="Business Studies"/>
+                <StringItem index="7" value="Journalism"/>
+                <StringItem index="8" value="Healthcare"/>
+                <StringItem index="9" value="Architecture"/>
+                <StringItem index="10" value="Law"/>
+                <StringItem index="11" value="Agriculture"/>
+                <StringItem index="12" value="Veterinary Medicine"/>
+                <StringItem index="13" value="Engineering"/>
+                <StringItem index="14" value="Travel and Hospitality"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Accpetance Certificate"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="f2label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="82" green="8b" red="a4" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="up2btn">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Upload"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="up2btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Submit"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="backbtn">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backbtnActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

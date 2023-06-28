@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="4a" green="83" red="f0" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel4" max="32767" attributes="0"/>
+                  <Component id="NLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="FNLsbel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="EmLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jLabel2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="FNTxt" min="-2" pref="140" max="-2" attributes="0"/>
+                          <Component id="Emtxt" min="-2" pref="172" max="-2" attributes="0"/>
+                          <Component id="Ncb" alignment="0" min="-2" pref="139" max="-2" attributes="0"/>
+                          <Component id="Gencb" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="LnLabel" max="32767" attributes="0"/>
+                          <Component id="AddLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DOBLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="LNTxt" min="-2" pref="139" max="-2" attributes="0"/>
+                              <Component id="AddTxt" max="32767" attributes="0"/>
+                              <Component id="jDate" alignment="0" pref="188" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="Idcb" min="-2" pref="154" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="visajb" min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="FLabel" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="323" max="-2" attributes="0"/>
+                      <Component id="nxtbtn" min="-2" pref="105" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="87" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="306" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="521" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jDate" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="FNLsbel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LnLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" pref="19" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="FNTxt" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="EmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AddLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Emtxt" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="LNTxt" min="-2" pref="27" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="AddTxt" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="DOBLabel" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Gencb" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Idcb" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="NLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Ncb" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="visajb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="FLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="nxtbtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="36" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Application Form"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FNLsbel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FirstName"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nationality"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LnLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="LastName"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DOBLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Date of Birth"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FNTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FNTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Emtxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AddTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="LNTxt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Ncb">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="150">
+            <StringItem index="0" value="Afghan&#x9;"/>
+            <StringItem index="1" value="Algerian&#x9;"/>
+            <StringItem index="2" value="American"/>
+            <StringItem index="3" value="Argentine&#x9;"/>
+            <StringItem index="4" value="Armenian&#x9;"/>
+            <StringItem index="5" value="Australian&#x9;"/>
+            <StringItem index="6" value="Austrian"/>
+            <StringItem index="7" value="Azerbaijani&#x9; &#x9;"/>
+            <StringItem index="8" value="Bahamian"/>
+            <StringItem index="9" value="Bangladeshi&#x9;"/>
+            <StringItem index="10" value="Belarusian&#x9;"/>
+            <StringItem index="11" value="Belgian&#x9;"/>
+            <StringItem index="12" value="Belizean&#x9;"/>
+            <StringItem index="13" value="Bermudian&#x9;"/>
+            <StringItem index="14" value="Bhutanese&#x9;"/>
+            <StringItem index="15" value="Bolivian&#x9;"/>
+            <StringItem index="16" value="Citizen of Bosnia and Herzegovina"/>
+            <StringItem index="17" value="Brazilian&#x9;"/>
+            <StringItem index="18" value="British&#x9;"/>
+            <StringItem index="19" value="British Virgin Islander"/>
+            <StringItem index="20" value="Bruneian&#x9;"/>
+            <StringItem index="21" value="Bulgarian&#x9;"/>
+            <StringItem index="22" value="Burundian&#x9;"/>
+            <StringItem index="23" value="Cambodian&#x9;"/>
+            <StringItem index="24" value="Canadian&#x9;"/>
+            <StringItem index="25" value="Cayman Islander&#x9;"/>
+            <StringItem index="26" value="Central African&#x9;Chadian&#x9;"/>
+            <StringItem index="27" value="Chilean"/>
+            <StringItem index="28" value="Chinese&#x9;"/>
+            <StringItem index="29" value="Colombian&#x9;"/>
+            <StringItem index="30" value="Congolese (DRC)&#x9;"/>
+            <StringItem index="31" value="Cook Islander&#x9;"/>
+            <StringItem index="32" value="Costa Rican&#x9;"/>
+            <StringItem index="33" value="Croatian"/>
+            <StringItem index="34" value="Cuban"/>
+            <StringItem index="35" value="Cypriot"/>
+            <StringItem index="36" value="Czech&#x9;"/>
+            <StringItem index="37" value="Danish&#x9;"/>
+            <StringItem index="38" value="Dominican&#x9;"/>
+            <StringItem index="39" value="Citizen of the Dominican Republic"/>
+            <StringItem index="40" value="Dutch   "/>
+            <StringItem index="41" value="Egyptian&#x9;"/>
+            <StringItem index="42" value="Emirati"/>
+            <StringItem index="43" value="English&#x9;"/>
+            <StringItem index="44" value="Equatorial Guinean&#x9;"/>
+            <StringItem index="45" value="Eritrean&#x9;"/>
+            <StringItem index="46" value="Ethiopian&#x9;"/>
+            <StringItem index="47" value="Fijian&#x9;"/>
+            <StringItem index="48" value="Filipino&#x9;"/>
+            <StringItem index="49" value="Finnish"/>
+            <StringItem index="50" value="French&#x9;"/>
+            <StringItem index="51" value="Georgian&#x9;"/>
+            <StringItem index="52" value="German"/>
+            <StringItem index="53" value="Ghanaian&#x9;"/>
+            <StringItem index="54" value="Greek&#x9;"/>
+            <StringItem index="55" value="Greenlandic"/>
+            <StringItem index="56" value="Grenadian&#x9;"/>
+            <StringItem index="57" value="Guinean&#x9;"/>
+            <StringItem index="58" value="Haitian&#x9;"/>
+            <StringItem index="59" value="Honduran&#x9;"/>
+            <StringItem index="60" value="Hong Konger&#x9;"/>
+            <StringItem index="61" value="Hungarian   &#x9; &#x9;"/>
+            <StringItem index="62" value="Icelandic&#x9;"/>
+            <StringItem index="63" value="Indian&#x9;"/>
+            <StringItem index="64" value="Indonesian&#x9;"/>
+            <StringItem index="65" value="Iranian"/>
+            <StringItem index="66" value="Iraqi&#x9;"/>
+            <StringItem index="67" value="Irish&#x9;"/>
+            <StringItem index="68" value="Israeli&#x9;"/>
+            <StringItem index="69" value="Italian"/>
+            <StringItem index="70" value="Ivorian&#x9;  "/>
+            <StringItem index="71" value="Jamaican&#x9;"/>
+            <StringItem index="72" value="Japanese&#x9;"/>
+            <StringItem index="73" value="Jordanian"/>
+            <StringItem index="74" value="Kazakh&#x9;"/>
+            <StringItem index="75" value="Kenyan&#x9;"/>
+            <StringItem index="76" value="Kosovan&#x9;"/>
+            <StringItem index="77" value="Kuwaiti&#x9;"/>
+            <StringItem index="78" value="Kyrgyz&#x9;"/>
+            <StringItem index="79" value="Macanese&#x9;"/>
+            <StringItem index="80" value="Malaysian&#x9;"/>
+            <StringItem index="81" value="Maldivian&#x9;"/>
+            <StringItem index="82" value="Martiniquais&#x9;"/>
+            <StringItem index="83" value="Mauritanian&#x9;"/>
+            <StringItem index="84" value="Mauritian"/>
+            <StringItem index="85" value="Mexican&#x9;"/>
+            <StringItem index="86" value="Mongolian&#x9;"/>
+            <StringItem index="87" value="Mosotho&#x9;"/>
+            <StringItem index="88" value="Mozambican&#x9;"/>
+            <StringItem index="89" value="Namibian&#x9;"/>
+            <StringItem index="90" value="Nauruan&#x9;"/>
+            <StringItem index="91" value="Nepalese&#x9;"/>
+            <StringItem index="92" value="New Zealander"/>
+            <StringItem index="93" value="Nicaraguan&#x9;"/>
+            <StringItem index="94" value="Nigerian&#x9;"/>
+            <StringItem index="95" value="Nigerien&#x9;"/>
+            <StringItem index="96" value="Niuean"/>
+            <StringItem index="97" value="North Korean&#x9;"/>
+            <StringItem index="98" value="Northern Irish&#x9;"/>
+            <StringItem index="99" value="Norwegian&#x9;   "/>
+            <StringItem index="100" value="Omani"/>
+            <StringItem index="101" value="Pakistani&#x9;"/>
+            <StringItem index="102" value="Palauan&#x9;"/>
+            <StringItem index="103" value="Palestinian&#x9;"/>
+            <StringItem index="104" value="Papua New Guinean&#x9;"/>
+            <StringItem index="105" value="Paraguayan&#x9;"/>
+            <StringItem index="106" value="Peruvian&#x9;"/>
+            <StringItem index="107" value="Polish&#x9;"/>
+            <StringItem index="108" value="Portuguese&#x9;"/>
+            <StringItem index="109" value="Puerto Rican"/>
+            <StringItem index="110" value="Qatari"/>
+            <StringItem index="111" value="Romanian&#x9;"/>
+            <StringItem index="112" value="Russian&#x9;"/>
+            <StringItem index="113" value="Rwandan"/>
+            <StringItem index="114" value="Saudi Arabian&#x9;"/>
+            <StringItem index="115" value="Scottish&#x9;"/>
+            <StringItem index="116" value="Serbian"/>
+            <StringItem index="117" value="Sierra Leonean&#x9;Singaporean&#x9;"/>
+            <StringItem index="118" value="Slovak"/>
+            <StringItem index="119" value="Slovenian&#x9;"/>
+            <StringItem index="120" value="South African"/>
+            <StringItem index="121" value="South Korean&#x9;"/>
+            <StringItem index="122" value="South Sudanese&#x9;"/>
+            <StringItem index="123" value="Spanish&#x9;"/>
+            <StringItem index="124" value="Sri Lankan"/>
+            <StringItem index="125" value="Stateless&#x9;"/>
+            <StringItem index="126" value="Swedish&#x9;"/>
+            <StringItem index="127" value="Swiss"/>
+            <StringItem index="128" value="Syrian&#x9;"/>
+            <StringItem index="129" value="Taiwanese&#x9;"/>
+            <StringItem index="130" value="Tanzanian&#x9;"/>
+            <StringItem index="131" value="Thai"/>
+            <StringItem index="132" value="Trinidadian&#x9;"/>
+            <StringItem index="133" value="Tristanian"/>
+            <StringItem index="134" value="Tunisian&#x9;"/>
+            <StringItem index="135" value="Turkish&#x9;"/>
+            <StringItem index="136" value="Turkmen"/>
+            <StringItem index="137" value=" Ugandan&#x9;"/>
+            <StringItem index="138" value="Ukrainian&#x9;"/>
+            <StringItem index="139" value="Uruguayan&#x9;"/>
+            <StringItem index="140" value="Uzbek"/>
+            <StringItem index="141" value="Vatican citizen&#x9;Citizen of Vanuatu&#x9;"/>
+            <StringItem index="142" value="Venezuelan&#x9;"/>
+            <StringItem index="143" value="Vietnamese"/>
+            <StringItem index="144" value="Vincentian&#x9;"/>
+            <StringItem index="145" value="Wallisian&#x9;"/>
+            <StringItem index="146" value="Welsh"/>
+            <StringItem index="147" value="Yemeni"/>
+            <StringItem index="148" value="Zambian&#x9;"/>
+            <StringItem index="149" value="Zimbabwean "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="jDate">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="DD-MM-YYYY"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gender"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Gencb">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Select Gender"/>
+            <StringItem index="1" value="Male"/>
+            <StringItem index="2" value="Female"/>
+            <StringItem index="3" value="Prefer Not to Say"/>
+            <StringItem index="4" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ID Proof"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Idcb">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Select Id proof"/>
+            <StringItem index="1" value="Aadhar Card"/>
+            <StringItem index="2" value="PanCard"/>
+            <StringItem index="3" value="Voter ID"/>
+            <StringItem index="4" value="License"/>
+            <StringItem index="5" value="Passport"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="UPLOAD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="nxtbtn">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NEXT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nxtbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Visa Type"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="visajb">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Select Visa Type"/>
+            <StringItem index="1" value="Student Visa"/>
+            <StringItem index="2" value="Medical Visa"/>
+            <StringItem index="3" value="Tourist Visa"/>
+            <StringItem index="4" value="Business Visa"/>
+            <StringItem index="5" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="visajbActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="File"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
