@@ -36,24 +36,13 @@ can apply for visa conveniently from any place.
 • Payment portal
 • Status of visa
 
+---------------
+![image](https://github.com/shruti200216/Visa-Processing-Sys/assets/132293976/c501698d-3a21-4802-8c6c-edc0b3987716)
+![image](https://github.com/shruti200216/Visa-Processing-Sys/assets/132293976/fcf0a58d-6a68-4899-a8be-b71463a610f6)
+![image](https://github.com/shruti200216/Visa-Processing-Sys/assets/132293976/9bbf54fc-5dc8-43ff-8d68-780511d22b2c)
+![image](https://github.com/shruti200216/Visa-Processing-Sys/assets/132293976/d063ef9f-5340-4093-86ea-f2116208f24e)
 
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/f9b63ac2-8cc2-478a-b235-3c0a86bed55f)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/e2a2d52d-c8aa-4a8a-a157-33a0f4f5f634)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/5fb82195-2907-40be-8cf5-451fc291ca14)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/c15c265b-9427-42d9-a447-e068de832c82)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/d3114e89-9d56-4612-aa18-cb8fde7f29e7)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/18ecd486-85c1-4bd4-a4a6-ca6e7a316fcf)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/737ac776-0689-4b3b-ae1c-45854af4e9d5)
-
-![image](https://github.com/shruti200216/Visa-Processing-System/assets/132293976/296ab99e-16ad-4332-aca3-4fbd81ab399b)
-
-
+---------------
 Conclusion:
 The Visa Processing System is tracking the visa transactions of the user , which
 provide customized solutions to meet the users needs.
